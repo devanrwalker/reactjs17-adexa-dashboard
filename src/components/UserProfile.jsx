@@ -31,7 +31,7 @@ const UserProfile = () => {
         <div>
           <p className="font-semibold text-xl dark:text-gray-200">
             {" "}
-            Liron Abutbul{" "}
+            Devan Walker{" "}
           </p>
           <p className="text-gray-500 text-sm dark:text-gray-400">
             {" "}
@@ -39,7 +39,7 @@ const UserProfile = () => {
           </p>
           <p className="text-gray-500 text-sm font-semibold dark:text-gray-400">
             {" "}
-            info@shop.com{" "}
+            devan.walker@sunwarrior.com{" "}
           </p>
         </div>
       </div>

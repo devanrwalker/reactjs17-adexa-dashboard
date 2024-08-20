@@ -59,7 +59,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex">
-        <NavButton
+        {/* <NavButton
           title="Cart"
           customFunc={() => handleClick("cart")}
           color={currentColor}
@@ -78,7 +78,7 @@ const Navbar = () => {
           customFunc={() => handleClick("notification")}
           color={currentColor}
           icon={<RiNotification3Line />}
-        />
+        /> */}
         <TooltipComponent content="Profile" position="BottomCenter">
           <div
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
@@ -88,16 +88,16 @@ const Navbar = () => {
             <p>
               <span className="text-gray-400 text-14">Hi, </span>{" "}
               <span className="text-gray-400 font-bold ml-1 text-14">
-                Liron
+                Devan
               </span>
             </p>
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
           </div>
         </TooltipComponent>
 
-        {isClicked.cart && <Cart />}
+        {/* {isClicked.cart && <Cart />}
         {isClicked.chat && <Chat />}
-        {isClicked.notification && <Notification />}
+        {isClicked.notification && <Notification />} */}
         {isClicked.userProfile && <UserProfile />}
       </div>
     </div>
